@@ -11,6 +11,3 @@ def home(request):
 
 def detail(request,my_args):
     return HttpResponse("you're looking at my_args %d."%int(my_args))
-
-def test(request):
-    return render(request,'test.html',{'current_time':datetime.now()})
