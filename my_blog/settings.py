@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'article',
+    'article.templatetags.custom_markdown',
 )
 from django.conf import global_settings
 BOOTSTRAP_ADMIN_SIDEBAR_MENU=True
